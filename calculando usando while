@@ -14,9 +14,10 @@ def calculadora(num1, num2, operacao):
         return "___Operação inválida!___"
 
 # Loop
+
 while True:
     op = int(input('''
-	    Escolha a operação:
+	    Escolha a operação(selecione o numero indicado):
      [1]Soma
      [2]Subtração
      [3]Multiplicação
@@ -24,8 +25,12 @@ while True:
      [0] Para sair!
 	'''))
     if op == 0:
-    	   print("Você finalizou o processo.")
-    	   break    	   
+      print("Você finalizou o processo.")
+      break
+    if op > 4:
+      print("Voçe digitou um comando invalido")
+      continue
+
     n1 = int(input("Escolha o primeiro número: "))
     n2 = int(input("Escolha o segundo número: "))
     
