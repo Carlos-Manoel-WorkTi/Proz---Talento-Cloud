@@ -36,6 +36,23 @@ article {
 h2 {
     color: rgb(244, 244, 244);
 }
+#pontos-turisticos{
+    background-image: linear-gradient(to right, rgb(0, 26, 255), rgb(77, 77, 197));
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#pontos-turisticos ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+#pontos-turisticos a{
+    color: rgb(193, 192, 192);
+}
 img{
     height: 500px;
     height: 590px;
@@ -69,6 +86,7 @@ p {
     color: white;
     font-size: 17px;
 }
+
 footer p{
     background-color: #040404;
     padding: 10px;
