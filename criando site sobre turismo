@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos na Europa</title>
+    <!-- Links para folhas de estilo CSS e scripts -->
+
+    <!-- style -->
+    <style>
+        body{
+            width: 800px;
+            margin: 0px auto 0px auto;
+            background-color: rgba(17, 17, 17, 0.998); 
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #040404;
+        }
+        h1 {
+            color: aquamarine;
+        }
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-end;
+        }
+        nav a {
+            color: aquamarine;
+            text-decoration: none;
+            margin: 10px;
+        }
+        article {
+            margin: 20px;
+        }
+        h2 {
+            color: aquamarine;
+        }
+        p {
+            padding-bottom: 15px;
+            border-bottom: 2px solid aquamarine;
+        }
+    </style>
+</head>
+<body >
+    <header>
+        <h1>Euro turimos</h1>
+        <nav>
+            <a href="#cidades">Cidades</a>
+            <a href="#planos">Planos</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+    
+    <article id="cidades">
+        <h2> Paris - A Cidade Luz</h2>
+        <img src="https://picsum.photos/500/300?random=0" alt="Imagem de Paris">
+        <p>
+            Paris, a capital da França, é uma das cidades mais belas e românticas da Europa. Com sua arquitetura icônica, incluindo a Torre Eiffel e o Louvre, e sua culinária requintada, Paris é um destino obrigatório para os amantes da cultura e da arte.
+        </p>
+    </article>
+
+    <article id="planos">
+        <h2>Santorini - Um Paraíso nas Ilhas Gregas</h2>
+        <img src="https://picsum.photos/500/300?random=1" alt="Imagem de Santorini">
+        <p>
+            Santorini, uma ilha na Grécia, é famosa por suas vistas deslumbrantes do mar Egeu, casas brancas caiadas de fresco e pôr do sol espetacular. É um destino perfeito para quem busca relaxamento e beleza natural.
+        </p>
+    </article>
+
+    <article id="sobre">
+        <h2>Alpes Suíços - Paraíso dos Amantes da Montanha</h2>
+        <img src="https://picsum.photos/500/300?random=2" alt="Imagem dos Alpes Suíços">
+        <p>
+            Os Alpes Suíços são uma região deslumbrante para os entusiastas da montanha e amantes da natureza na Europa. Com picos majestosos, lagos cristalinos e trilhas cênicas, é um destino imperdível para quem gosta de esportes ao ar livre.
+        </p>
+    </article>
+
+    <!-- Outros artigos aqui... -->
+
+    <footer>
+        <p>Planeje Sua Próxima Aventura na Europa</p>
+    </footer>
+</body>
+</html>
