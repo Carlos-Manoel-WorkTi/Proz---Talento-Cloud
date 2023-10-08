@@ -9,8 +9,8 @@ Ex: calculadora(2,2,1) Saida:2+2 = 4
 [1]Soma
 [2]Subtração
 [3]Multiplicação
-[4]Divisão
-	''')
+[4]Divisão ''');
+
 def calculadora(num1, num2, operacao):
     if operacao == 1:
         return num1 + num2
@@ -26,6 +26,7 @@ def calculadora(num1, num2, operacao):
     else:
         return "___Operação inválida!___"
 
+
 # Exemplo de uso da função:
 resultado = calculadora(2, 2, 1)  # Soma de 2 + 2
-print("O resultado é: ",resultado)
+print("O resultado é: ", resultado)

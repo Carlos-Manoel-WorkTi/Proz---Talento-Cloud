@@ -15,6 +15,7 @@ def calculadora(num1, num2, operacao):
 
 # Loop
 
+
 while True:
     op = int(input('''
 	    Escolha a operação(selecione o numero indicado):
@@ -24,17 +25,18 @@ while True:
      [4]Divisão
      [0] Para sair!
 	'''))
+
     if op == 0:
-      print("Você finalizou o processo.")
-      break
+        print("Você finalizou o processo.")
+        break
     if op > 4:
-      print("Voçe digitou um comando invalido")
-      continue
+        print("Voçe digitou um comando invalido")
+        continue
 
     n1 = int(input("Escolha o primeiro número: "))
     n2 = int(input("Escolha o segundo número: "))
-    
-    result = calculadora(n1,n2,op)
+
+    result = calculadora(n1, n2, op)
     print("----------------------")
     print("O resultado é ", result)
     print("----------------------")
