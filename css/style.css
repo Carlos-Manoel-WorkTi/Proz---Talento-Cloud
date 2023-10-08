@@ -1,0 +1,75 @@
+body {
+    width: 800px;
+    margin: 0px auto 0px auto;
+    background-color: rgba(17, 17, 17, 0.998);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #040404;
+    color: rgb(7, 160, 160);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+nav a{
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(7, 160, 160);
+}
+article {
+    margin: 20px;
+    color: rgb(162, 162, 162);
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(72, 72, 72);
+}
+h2 {
+    color: rgb(244, 244, 244);
+}
+img{
+    height: 500px;
+    height: 590px;
+}
+p {
+    text-align: start;
+    padding-bottom: 10px;
+}
+#btn {
+    background-color: rgb(20, 61, 208);
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+#search{
+    height: 45px;
+    margin-left: 10px;
+}
+#search input{
+    padding: 10px;
+    background-color: azure;
+    border-radius: 10px;
+}
+#search button{
+    padding: 10px;
+    background-color: rgb(20, 61, 208);
+    border-radius: 10px;
+}
+#search button a{
+    color: white;
+    font-size: 17px;
+}
+footer p{
+    background-color: #040404;
+    padding: 10px;
+}
