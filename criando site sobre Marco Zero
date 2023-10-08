@@ -50,6 +50,7 @@
         }
         p {
             text-align: start;
+            padding-bottom: 10px;
         }
         #btn {
             background-color: rgb(20, 61, 208);
@@ -103,7 +104,7 @@
                     Veja sua localização clicando aqui 
                     <a href="https://www.google.com/maps/search/Marco+Zero,+Recife"><strong>MARCO ZERO</strong></a>
                 </p>
-                <p>
+                <p> <img src="https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2023/02/20/921499/20230220081453913518o.jpg" >
                     Além de sua importância geográfica, o <strong>Marco Zero</strong> é também um ponto de encontro e palco para eventos culturais e festivos. É um lugar vibrante, onde é possível apreciar a vista para o Rio Capibaribe, os edifícios históricos e a arquitetura moderna que o cercam.
                 </p>
                 <p>
