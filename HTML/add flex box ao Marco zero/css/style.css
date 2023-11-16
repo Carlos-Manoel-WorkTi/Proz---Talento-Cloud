@@ -1,0 +1,174 @@
+/* Reset de estilos padrão */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(35, 129, 192));
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0 10%;
+    padding: 0;
+    max-width: 80%;
+}
+
+/* Header */
+header {
+    background-color: #1eb1bf; /* Cor azul fraca */
+    color: #fff;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#search input[type="text"] {
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#search button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#cidades {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pontos-turisticos a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#pontos-turisticos a:hover {
+    background-color: #555;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#btn {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+#btn:hover {
+    background-color: #555;
+}
+#pontos-turisticos{
+    background-color: #1eb1bf;
+    margin: 10px;
+}
+#pontos-turisticos a{
+    background-color: #1eb1bf;
+    font-size: larger;
+}
+
+footer {
+    text-align: center;
+    background-color: #232628;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    #search {
+        margin: 10px 0;
+    }
+
+    #search input[type="text"] {
+        width: 100%;
+    }
+
+    #search button {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+    
+    #btn {
+        padding: 10px 20px;
+        background-color: #1eb1bf;
+    }
+}
