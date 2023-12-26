@@ -15,6 +15,7 @@
  
 <span style="color:green;">SELECT</span> * <span style="color:green;">FROM</span> ALUNO <span style="color:green;">WHERE</span> NOTA > 7;</span>
 <hr/>
+
  ### - Exiba as informações dos alunos do primeiro ano com nota maior ou igual a 8,0;
 
   
