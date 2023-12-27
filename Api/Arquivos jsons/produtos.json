@@ -1,0 +1,29 @@
+ [
+    {
+        "id": 1,
+        "nome": "Produto A",
+        "marca": "Marca X",
+        "categoria": "Categoria 1",
+        "preco": 29.99,
+        "quantidade_estoque": 50,
+        "disponivel_pronta_entrega": true
+    },
+    {
+        "id": 2,
+        "nome": "Produto B",
+        "marca": "Marca Y",
+        "categoria": "Categoria 2",
+        "preco": 49.99,
+        "quantidade_estoque": 20,
+        "disponivel_pronta_entrega": false
+    },
+    {
+        "id": 3,
+        "nome": "Produto C",
+        "marca": "Marca Z",
+        "categoria": "Categoria 1",
+        "preco": 99.99,
+        "quantidade_estoque": 100,
+        "disponivel_pronta_entrega": true
+    }
+]
