@@ -1,8 +1,8 @@
 ## Crie um banco de dados, adicione tabelas e determine quais são os atributos de cada uma. Em seguida, execute um trigger que se relacione com algum comando, como insert, select, delete ou update.
-<div>
+
 - Criação do banco de dados 'exemplo_bd' 
 
-       CREATE DATABASE IF NOT EXISTS exemplo_bd;
+        CREATE DATABASE IF NOT EXISTS exemplo_bd;
 
  - Usar o banco de dados criado
 
