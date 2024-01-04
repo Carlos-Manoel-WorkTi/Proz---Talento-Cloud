@@ -1,0 +1,1 @@
+## O banco utilizado foi o SQLite
