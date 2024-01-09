@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, purple,rgb(190, 117, 190),rgb(104, 221, 104));
+    height: 100vh;
+}
+h3{
+    margin-left: -20%;
+}
+#lista{
+    margin-left: -10%;
+    background-color: aliceblue;
+    height:auto;
+    width: 150px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+li{
+    padding: 4px;
+    list-style: none;
+    text-decoration: none;
+}
