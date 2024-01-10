@@ -1,0 +1,99 @@
+body{
+    
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#search{
+    width: 10%;
+    height: 20px;
+}
+header{
+    background: linear-gradient(45deg,rgb(56, 141, 169),rgb(68, 217, 228),rgb(37, 192, 195));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+#ul-nav{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    color: white;
+    font-size: large;
+}
+#main{
+    display: flex;
+    justify-content: space-around;
+
+}
+form{
+    width: 300px;
+    height: 200px;
+    margin-top: 60px;
+    padding: 15px;
+}
+form input{
+    margin-bottom: 20px;
+}
+
+#produtos{
+    width: 500px;
+    height: 200px;
+    margin-top: 80px;
+    background: rgb(184, 228, 234);
+}
+#Add_btn{
+    background-color: rgb(26, 133, 227);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+#nome, #valor{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#nome:focus{
+    border-bottom: 1px solid rgb(25, 140, 190);
+}
+
+#text{
+    padding: 5px;
+}
+#ul-lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+#ul-lista li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+}
+#ul-lista li span{
+    color: gray;
+}
+#ul-lista li span strong{
+    color: rgb(85, 85, 85);
+}
+
+.tower {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+  #error-tower{
+    background-color: #a73928;
+  }
